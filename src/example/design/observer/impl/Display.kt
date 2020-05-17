@@ -1,6 +1,6 @@
-package example.observer
+package example.design.observer.impl
 
-import observer.IObserver
+import example.design.observer.IObserver
 
 class Display: IObserver<WeatherData> {
 
