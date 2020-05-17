@@ -1,6 +1,6 @@
-package example.observer
+package example.design.observer.impl
 
-import observer.IData
+import example.design.observer.IData
 
 /**
  *

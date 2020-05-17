@@ -1,7 +1,7 @@
-package example.observer
+package example.design.observer.impl
 
-import observer.IObserver
-import observer.ISubject
+import example.design.observer.IObserver
+import example.design.observer.ISubject
 
 class WeatherSubject : ISubject<WeatherData> {
     private var observerList = arrayListOf<IObserver<WeatherData>>()

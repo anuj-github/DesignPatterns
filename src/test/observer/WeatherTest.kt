@@ -1,7 +1,7 @@
-package test
+package test.observer
 
-import example.observer.Display
-import example.observer.WeatherSubject
+import example.design.observer.impl.Display
+import example.design.observer.impl.WeatherSubject
 import org.junit.jupiter.api.Test
 
 class WeatherTest {

@@ -1,4 +1,4 @@
-package observer
+package example.design.observer
 
 /**
  * Subject interface. This needs to be implemented by class which want to
